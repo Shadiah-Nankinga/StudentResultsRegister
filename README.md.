@@ -1,0 +1,35 @@
+Student Results Register
+
+Course: BCS 2204 – Data Structures and Algorithms
+Scenario: 6 – Student Results Register
+Language: C++17
+Compiler: G++
+
+Project Files
+
+* Student.h – Defines the Student record structure.
+* DynamicArray.h – Implements the dynamic array with capacity doubling.
+* Sorting.h – Implements Insertion Sort, Quick Sort and iterative Binary Search.
+* main.cpp – Main application and functional tests.
+* benchmark.cpp – Measures sorting execution times.
+* students.txt – Sample student records.
+
+Compile and Run
+
+Compile the main program:
+
+g++ -std=c++17 main.cpp -o StudentResultsRegister
+
+Run:
+
+./StudentResultsRegister
+
+Compile the benchmark:
+
+g++ -std=c++17 -O2 benchmark.cpp -o benchmark
+
+Run:
+
+./benchmark
+
+The benchmark compares sorting performance using three repetitions and calculates average execution times.
