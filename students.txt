@@ -1,0 +1,3 @@
+101|Alice|Computer Science|85.5
+102|Brian|Information Technology|78.5
+103|Carol|Software Engineering|90
